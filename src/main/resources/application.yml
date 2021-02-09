@@ -1,0 +1,15 @@
+guru:
+  jms:
+    username: JMS Username
+    password: somepass2
+    url: SomeUrl
+
+---
+
+spring:
+  config:
+    activate:
+      on-profile: de
+guru:
+  jms:
+    username: JMS Username $$$ German
